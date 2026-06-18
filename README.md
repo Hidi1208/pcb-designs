@@ -28,4 +28,4 @@ A compact USB macropad with a 3×3 switch grid, rotary encoder, and OLED display
 
 ## About
 
-I design custom PCBs for keyboards, input devices, and embedded systems. Open to freelance projects — reach out via [your email] or [your Fiverr/Upwork link].
+I design custom PCBs for keyboards, input devices, and embedded systems. Open to freelance projects — reach out via anidesh1208@gmail.com
