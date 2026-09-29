@@ -1,5 +1,8 @@
 # USB-C Power Delivery Hub
 
+![Board Front](images/3d-render-front.png)
+![Board Back](images/3d-render-back.png)
+
 A custom PCB that negotiates USB-C Power Delivery to provide multiple regulated voltage outputs from a single PD charger. Designed from scratch in KiCad 10 as a portfolio project demonstrating power electronics, USB-C PD protocol, and multi-rail voltage regulation.
 
 ## What It Does
@@ -58,7 +61,10 @@ Each output rail uses an identical MP1584EN circuit with only the feedback resis
 
 Shared across all three converters: 10µH inductor, 10µF input cap, 22µF output cap, 100nF bootstrap cap, 100kΩ frequency-setting resistor (~500kHz), and a series RC compensation network (10kΩ + 2.2nF).
 
-## PCB Specifications
+## PCB
+
+![PCB Layout](images/pcb-layout.png)
+![Schematic](images/schematic.png)
 
 | Parameter | Value |
 |-----------|-------|
@@ -79,16 +85,6 @@ Shared across all three converters: 10µH inductor, 10µF input cap, 22µF outpu
 - 2-layer PCB layout with ground pours and mixed trace widths
 - Component selection and datasheet-driven design
 - DRC-clean board ready for fabrication
-
-## Files
-
-```
-pd-hub/
-├── gerbers/              # Fabrication-ready Gerber + drill files
-├── images/               # Board renders and schematic screenshots
-├── pd-hub-README.md      # This file
-└── (KiCad source files kept private)
-```
 
 ## Charger Requirements
 
